@@ -59,3 +59,41 @@ strong {
     font-size: 2.5em;
     text-align: center;
 }
+
+.Pengalaman h1  {
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.Hobi h1  {
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.Hobi p {
+    text-align: center;
+}
+
+.Hobi img{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.Hobi p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Hobi-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Hobi-item {
+    width: 45%;
+    margin-bottom: 20px;
+}
