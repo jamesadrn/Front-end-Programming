@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, h5, h6, p, ul {
+body, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,12 +13,12 @@ body {
 
 .container {
     max-width: 1200px;
-    margin : 0 auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
 .header {
-    background-color: #343a40;
+    background-color: #4a4a4a;
     color: white;
     padding: 20px;
     text-align: center;
@@ -26,23 +26,29 @@ body {
     margin-bottom: 20px;
 }
 
+.header-content h1, .header-content h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .profile-pic {
     width: 150px;
     height: 200px;
     margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 section {
-    background-color: white;
+    background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-top: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 ul {
     list-style: none;
-    padding-left: 0;
+    padding-left: 15px;
 }
 
 li {
@@ -54,44 +60,22 @@ strong {
     color: black;
 }
 
-.Biodata h1  {
+.Biodata h1, .Pendidikan h1, .Pengalaman h1, .Hobi h1 {
     color: black;
     font-size: 2.5em;
     text-align: center;
-}
-
-.Pendidikan h1  {
-    color: black;
-    font-size: 2.5em;
-    text-align: center;
-}
-
-.Pengalaman h1  {
-    color: black;
-    font-size: 2.5em;
-    text-align: center;
-}
-
-.Hobi h1  {
-    color: black;
-    font-size: 2.5em;
-    text-align: center;
-}
-
-.Hobi p {
-    text-align: center;
-}
-
-.Hobi img{
-    width: 100%;
-    height: 300px;
-    border-radius: 8px;
-    margin-bottom: 10px;
 }
 
 .Hobi p {
     text-align: center;
     font-size: 1.2em;
+}
+
+.Hobi img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .Hobi-section {
@@ -102,4 +86,24 @@ strong {
 .Hobi-item {
     width: 45%;
     margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .Hobi-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Hobi img {
+        height: auto;
+    }
 }
