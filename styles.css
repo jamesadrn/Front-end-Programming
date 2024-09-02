@@ -26,6 +26,12 @@ body {
     margin-bottom: 20px;
 }
 
+.profile-pic {
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+}
+
 section {
     background-color: white;
     padding: 20px;
